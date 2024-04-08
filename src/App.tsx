@@ -1,14 +1,14 @@
-import "./App.css";
-import Competenties from "./components/competenties/competenties";
-import Contactgegevens from "./components/contactgegevens/contactgegevens";
-import Cursussen from "./components/cursussen/cursussen";
-import Header from "./components/header/header";
-import LeidinggevendProfiel from "./components/leidinggevendProfiel/leidinggevendProfiel";
-import Opleiding from "./components/opleidingen/opleidingen";
-import ProfessioneleVaardigheden from "./components/professioneleVaardigheden/professioneleVaardigheden";
-import Referenties from "./components/referenties/referenties";
-import Talen from "./components/talen/talen";
-import Werkervaringen from "./components/werkervaringen/werkervaringen";
+import './App.css';
+import Competenties from './components/competenties/competenties';
+import Contactgegevens from './components/contactgegevens/contactgegevens';
+import Cursussen from './components/cursussen/cursussen';
+import Header from './components/header/header';
+import LeidinggevendProfiel from './components/Profiel/Profiel';
+import Opleiding from './components/opleidingen/opleidingen';
+import ProfessioneleVaardigheden from './components/professioneleVaardigheden/professioneleVaardigheden';
+import Referenties from './components/referenties/referenties';
+import Talen from './components/talen/talen';
+import Werkervaringen from './components/werkervaringen/werkervaringen';
 
 function App() {
 	return (

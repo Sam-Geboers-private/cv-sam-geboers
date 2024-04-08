@@ -1,4 +1,4 @@
-import "./competenties.css";
+import './competenties.css';
 
 const Competenties = () => {
 	return (
@@ -7,7 +7,7 @@ const Competenties = () => {
 			<ul>
 				<li>Doelgericht handelen</li>
 				<li>Zelfstandig</li>
-				<li>Werkt goed in een group</li>
+				<li>Werkt goed in een groep</li>
 				<li>Leert snel bij</li>
 			</ul>
 		</div>

@@ -1,13 +1,89 @@
+:root {
+	--text-primary: black;
+	--text-secondary: white;
+	--bgc-primary: rgb(242, 242, 242);
+	--bgc-secondary: rgb(123, 128, 131);
+	--bgc-header: rgb(219, 32, 32);
+	--bgc-body: rgba(204, 203, 203, 0.713);
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: var(--bgc-body);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+ul {
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2 {
+	color: var(--text-secondary);
+}
+
+h3 {
+	background-color: var(--bgc-secondary);
+	color: var(--text-secondary);
+	margin-bottom: 0.5em;
+	padding: 0.5em;
+}
+
+.h3-dark {
+	background-color: var(--bgc-header);
+	color: var(--text-primary);
+	border-radius: 0.5em;
+}
+
+h4 {
+	color: var(--bgc-header);
+}
+
+.container .item-container {
+	padding-bottom: 0.5em;
+}
+
+.container {
+	margin-bottom: 1em;
+	max-height: fit-content;
+	background-color: var(--bgc-secondary);
+}
+
+.school,
+.naam {
+	font-weight: 500;
+}
+
+.school-opmerking,
+.lijst,
+.pl {
+	padding-left: 0.5em;
+}
+
+.lijst {
+	background-color: var(--bgc-primary);
+	border-radius: 0.5em;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
 }

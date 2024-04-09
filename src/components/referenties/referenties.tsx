@@ -12,6 +12,11 @@ const Referenties = () => {
 					email='steve.hendriks@hendriks.be'
 					GSM='0478 27 20 71'
 				/>
+				<Referentie
+					bedrijf='Paulissen IT'
+					persoon='Ruud Paulissen'
+					GSM='+32 479 32 78 55'
+				/>
 			</div>
 		</div>
 	);

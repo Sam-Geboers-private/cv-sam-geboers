@@ -7,7 +7,7 @@ const Werkervaringen = () => {
 			<h3>Werkervaringen</h3>
 			<div className='lijst lijst-werkervaringen'>
 				<Werkervaring
-					werkgever='Hendriks NV'
+					werkgever='Taxi Hendriks NV'
 					functie='Developer'
 					periode='2024'
 				/>

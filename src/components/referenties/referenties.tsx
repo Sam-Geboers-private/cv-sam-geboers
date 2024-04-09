@@ -7,7 +7,7 @@ const Referenties = () => {
 			<h3>Referenties</h3>
 			<div className='lijst lijst-referenties'>
 				<Referentie
-					bedrijf='Hendriks NV'
+					bedrijf='Taxi Hendriks NV'
 					persoon='Steve Hendriks'
 					email='steve.hendriks@hendriks.be'
 					GSM='0478 27 20 71'

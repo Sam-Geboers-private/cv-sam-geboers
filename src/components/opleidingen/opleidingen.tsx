@@ -1,5 +1,5 @@
-import Opleiding from "./opleiding/opleiding";
-import "./opleidingen.css";
+import Opleiding from './opleiding/opleiding';
+import './opleidingen.css';
 
 const Opleidingen = () => {
 	return (
@@ -21,9 +21,8 @@ const Opleidingen = () => {
 					opmerking={
 						<ul>
 							<li>
-								Niet afgemaakt, ik wou mij meer focussen op het programmeren
-								i.p.v. de andere onderwerpen die in deze opleiding worden
-								behandeld.
+								Mijn focus ligt momenteel meer op programmeren, waardoor ik heb besloten de andere
+								onderwerpen in deze opleiding voorlopig even te laten rusten.
 							</li>
 						</ul>
 					}

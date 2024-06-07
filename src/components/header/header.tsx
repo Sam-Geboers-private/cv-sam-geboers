@@ -1,10 +1,18 @@
-import "./header.css";
+import './header.css';
+import profielFoto from '../../assets/profiel-foto.jpg';
 
 const Header = () => {
 	return (
 		<div className='container header-container'>
-			<h1>Sam Geboers</h1>
-			<h2>Junior Programmer</h2>
+			<img
+				className='profilePic'
+				src={profielFoto}
+				alt='Profiel foto'
+			/>
+			<div className='info'>
+				<h1>Sam Geboers</h1>
+				<h2>Programmer</h2>
+			</div>
 		</div>
 	);
 };

@@ -1,4 +1,4 @@
-import "./contactgegevens.css";
+import './contactgegevens.css';
 
 const Contactgegevens = () => {
 	return (
@@ -9,16 +9,31 @@ const Contactgegevens = () => {
 				<li>E-mail: samgeboers2000@gmail.com</li>
 				<li>Woonplaats: Lommel, België</li>
 				<li>
-					Rijbewijs: <input type='checkbox' checked disabled />
+					Rijbewijs:{' '}
+					<input
+						type='checkbox'
+						checked
+						disabled
+					/>
 				</li>
 				<li>
-					LinkedIn:{" "}
+					LinkedIn:{' '}
 					<a
 						href='https://www.linkedin.com/in/sam-geboers-a2a1ab289'
 						target='_blank'
 						rel='noreferrer'
-						className='linkedIn'>
+						className='linkedIn weblink'>
 						www.linkedin.com/in/sam-geboers-a2a1ab289
+					</a>
+				</li>
+				<li>
+					Github:{' '}
+					<a
+						href='https://github.com/Sam-Geboers-private'
+						target='_blank'
+						rel='noreferrer'
+						className='github weblink'>
+						https://github.com/Sam-Geboers-private
 					</a>
 				</li>
 			</ul>

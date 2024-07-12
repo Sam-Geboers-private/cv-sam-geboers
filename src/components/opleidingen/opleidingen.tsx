@@ -7,7 +7,7 @@ const Opleidingen = () => {
 			<h3>Opleidingen</h3>
 			<div className='lijst lijst-opleidingen'>
 				<Opleiding
-					naam='Graduaat Programmeren'
+					naam='Graduaat Programmeren (2021-2023)'
 					school='UCLL'
 					opmerking={
 						<ul>
@@ -16,7 +16,7 @@ const Opleidingen = () => {
 					}
 				/>
 				<Opleiding
-					naam='Prof. Bachelor Toegepaste Informatica'
+					naam='Prof. Bachelor Toegepaste Informatica (2019-2021)'
 					school='UCLL'
 					opmerking={
 						<ul>
